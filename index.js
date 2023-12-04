@@ -50,8 +50,6 @@ for(i = 0; i < 10; i++) {
 let postI = 0;
 let postJ = 0;
 
-
-
 for(i = 0; i < 11; i++) {
     postI += postJ++
 }
@@ -72,7 +70,7 @@ let variableValorNumerico = 5;
 
 //14.- Crear variable tipo **const** de nombre **MiNombre** declarada con valor **tu nombre**
 
-const MiNombre = Javi;
+const MiNombre = 'Javi';
 
 //15.- Crear variable tipo **const** de nombre **MiNumeroFav** declarada con **valor numérico**
 
@@ -92,7 +90,7 @@ let seisNoEsNueve = 6 !== 9;
 
 //19.- Crear variable **booleanoMix2** cuyo valor sea la comparación booleana **variableValorNumerico positivo (0 no incluido) o menor que -(MiNumeroFav * TAU)**
 
-/*let booleanoMix2 = variableValorNumerico > 0 || < -(MiNumeroFav * TAU);*/
+let booleanoMix2 = variableValorNumerico > 0 || variableValorNumerico < -(MiNumeroFav * TAU);
 
 
 //20.- Crear variable **valorSuma** cuyo valor sea **la suma de MiNumeroFav y variableValorNumerico**
@@ -106,7 +104,7 @@ let valorResta = MiNumeroFav - variableValorNumerico;
 
 //22.-  Crear variable **valorMultiplicación** cuyo valor sea **la multiplicación de MiNumeroFav por variableValorNumerico**
 
-let valorMultiplicación = MiNumeroFav * variableValorNumerico;
+let valorMultiplicación = MiNumeroFav * variableValorNumerico
 
 //23.-  Crear variable **valorDivisión** cuyo valor sea **la división de MiNumeroFav entre 3**
 
@@ -116,8 +114,8 @@ let valorDivisión = MiNumeroFav / 3;
 
 let contarHasta10 = 0;
 
-while(i < 10) {
-    i++
+while(contarHasta10 < 10) {
+    contarHasta10++;
 }
 
 //25.- Crear las variables **preI** y **preJ** con valor **0** a continuación cree **un bucle que itere 11 veces**. En cada iteración se deberá **sumar al valor de preI el valor de ++preJ**
@@ -125,7 +123,7 @@ while(i < 10) {
 let preI = 0;
 let preJ = 0;
 
-for(i = 0; i < 12; i++) {
+for(i = 0; i < 11; i++) {
     preI += preJ   
 }
 
